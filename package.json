@@ -1,0 +1,14 @@
+{
+  "name": "cheesy-api-types-package",
+  "version": "0.0.1",
+  "description": "Type definitions for cheesy-api",
+  "keywords": ["cheesy-api"],
+  "author": "no1621name",
+  "license": "MIT",
+  "types": "./index.d.ts",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/no1621name/cheesy-api-types-package.git"
+  }
+}
