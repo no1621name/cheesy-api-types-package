@@ -194,6 +194,13 @@ declare global {
     // OrderRequset
   }
 
+  interface Sale {
+    _id: number;
+    name: string;
+    products_ids: number[];
+    preview: string;
+  }
+
   type OrderRequet = Omit<Order, '_id'>;
 
   type ReviewRequest = Omit<Review, 'date' | '_id'> & { product_id: number };
